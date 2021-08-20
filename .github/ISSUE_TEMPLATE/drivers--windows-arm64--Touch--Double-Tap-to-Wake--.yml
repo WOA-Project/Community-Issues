@@ -74,6 +74,55 @@ body:
       placeholder: e.g. 2.12
     validations:
       required: false
+  - type: dropdown
+    id: bsp-version
+    attributes:
+      label: What version of the BSP are you currently running?
+      description: |
+        - You can find out what version of the BSP you are running by going to the Advanced Info application on WOA.
+        - **Windows 11**: Settings ➡️ Devices and Printers ➡️ Bluetooth ➡️ View lumia specific information
+        - **Windows 10/10X**: Settings ➡️ Devices ➡️ Bluetooth and other devices ➡️ View lumia specific information
+
+        Then read the release information field.
+
+        - You also can find this information when the phone boots up on the screen of the phone.
+      multiple: false
+      options:
+        - 'v2108.58 (Prussian Blue)'
+        - 'v2108.44 (Prussian Blue)'
+        - 'v2108.42 (Prussian Blue)'
+        - 'v2107.12'
+        - 'v2105.22'
+        - 'v2105.1'
+        - 'v2103.32'
+        - 'v2103.6'
+        - 'v2102.75'
+        - 'v2102.71'
+        - 'v2102.60'
+        - 'v2102.21'
+        - 'v2102.14'
+        - 'v2102.1'
+        - '2012.1'
+        - '2012'
+        - '2011'
+        - '2009.63'
+        - '2009'
+        - '2006'
+        - '2005'
+        - '2003.2.2'
+        - '2003.2'
+        - '2003.1'
+        - '2003'
+        - 'Other (please specify below)'
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: BSP Version (if not specified above)
+      description: The version of the BSP being used, or commit hash
+      placeholder: e.g. v2108.58
+    validations:
+      required: false
   - type: input
     attributes:
       label: Operating System
