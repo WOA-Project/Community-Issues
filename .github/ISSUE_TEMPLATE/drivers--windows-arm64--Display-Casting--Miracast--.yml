@@ -128,51 +128,58 @@ body:
       placeholder: e.g. Windows 11 Professional ARM64 build 22000.160
     validations:
       required: true
-  - type: input
+  - type: dropdown
+    id: device-type
     attributes:
-      label: BootShim
-      description: Version of Bootshim being used to load the UEFI
-      placeholder: e.g. 174 (Latest)
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Device
-      placeholder: e.g. Lumia 950 XL Single SIM (RM-1085)
+      label: What device do you have?
+      multiple: false
+      options:
+        - 'Lumia 950'
+        - 'Lumia 950 Dual SIM'
+        - 'Lumia 950 AT&T'
+        - 'Lumia 950 XL'
+        - 'Lumia 950 XL Dual SIM'
+        - 'Lumia 950 XL AT&T'
     validations:
       required: true
   - type: input
     attributes:
       label: Stock Firmware
-      description: check about in Windows Phone or your stock FFU file, or WPinternals
+      description: Check about in Windows Phone or your stock FFU file, or WPinternals
       placeholder: e.g. 1078.0053
     validations:
       required: true
   - type: input
     attributes:
       label: Battery Vendor
-      description: pull your battery out
+      description: The battery vendor name is usually specified on your battery. You will have to pull it out to gather this piece of information.
       placeholder: e.g. Microsoft Mobile
     validations:
       required: true
   - type: input
     attributes:
       label: Battery Manufacturing Date
-      description: pull your battery out
+      description: The battery manufacturing date is usually specified on your battery. You will have to pull it out to gather this piece of information. Please note Microsoft Mobile batteries manufactured after the year 2016 are counterfeit products and may be a firehazard and generally should be avoided and will cause severe issues down the road.
       placeholder: e.g. 11/2015
     validations:
       required: true
   - type: input
     attributes:
       label: Hardware Version
-      description: check about in Windows Phone or the Advanced Info application in WOA
+      description: |
+        - You can find out what version of the hardware you are running by going to the Advanced Info application on WOA.
+        - **Windows 11**: Settings ➡️ Devices and Printers ➡️ Bluetooth ➡️ View lumia specific information
+        - **Windows 10/10X**: Settings ➡️ Devices ➡️ Bluetooth and other devices ➡️ View lumia specific information
+
+        Then read the hardware version field.
       placeholder: e.g. 1.0.0.2
     validations:
       required: true
   - type: dropdown
     id: deployment-type
     attributes:
-      label: Select any case that applies to your deployment
+      label: Deployment type
+      description: The type of deployment you performed on the phone (tool used, way, principle used)
       multiple: false
       options:
         - 'I have deployed Windows using WOA Deployer and never updated using the Driver Updater utility'
@@ -181,13 +188,6 @@ body:
         - 'I have deployed Windows using a custom FFU file using THOR2 and updated using the Driver Updater utility afterwards'
         - 'I have deployed Windows manually myself and never updated using the Driver Updater utility'
         - 'I have deployed Windows manually myself and updated using the Driver Updater utility afterwards'
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Type of deployment
-      description: What you used for deploying
-      placeholder: e.g. WOA Deployer or FFU (thor2)
     validations:
       required: true
   - type: textarea
