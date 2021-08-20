@@ -45,6 +45,7 @@ body:
         - You also can find this information when the phone boots up on the screen of the phone.
       multiple: false
       options:
+        - '2.23'
         - '2.22'
         - '2.21-c'
         - '2.21-b'
@@ -86,6 +87,7 @@ body:
         Then read the release information field.
       multiple: false
       options:
+        - 'v2108.67'
         - 'v2108.58 (Prussian Blue)'
         - 'v2108.44 (Prussian Blue)'
         - 'v2108.42 (Prussian Blue)'
