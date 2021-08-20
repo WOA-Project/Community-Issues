@@ -35,55 +35,55 @@ body:
     attributes:
       label: UEFI Version
       description: The version of the UEFI being used, or commit hash
-      placeholder: e.g. 2.12
+      placeholder: 2.12
     validations:
       required: true
   - type: input
     attributes:
       label: Operating System
       description: Operating System being booted using the UEFI
-      placeholder: e.g. Windows 11 ARM64 build 22000.160
+      placeholder: Windows 11 ARM64 build 22000.160
     validations:
       required: true
   - type: input
     attributes:
       label: BootShim
       description: Version of Bootshim being used to load the UEFI
-      placeholder: e.g. 174
+      placeholder: 174
     validations:
       required: true
   - type: input
     attributes:
       label: Device
-      placeholder: e.g. Lumia 950 XL
+      placeholder: Lumia 950 XL
     validations:
       required: true
   - type: input
     attributes:
       label: Stock Firmware
       description: check about in Windows Phone
-      placeholder: e.g. 1078.0053
+      placeholder: 1078.0053
     validations:
       required: true
   - type: input
     attributes:
       label: Battery Vendor
       description: pull your battery out
-      placeholder: e.g. Microsoft Mobile
+      placeholder: Microsoft Mobile
     validations:
       required: true
   - type: input
     attributes:
       label: Battery Manufacturing Date
       description: pull your battery out
-      placeholder: e.g. e.g. 11/2015
+      placeholder: 11/2015
     validations:
       required: true
   - type: input
     attributes:
       label: Hardware Version
       description: check about in Windows Phone
-      placeholder: e.g. e.g. 1.0.0.2
+      placeholder: 1.0.0.2
     validations:
       required: true
   - type: textarea
