@@ -61,7 +61,7 @@ body:
   - type: input
     attributes:
       label: Stock Firmware
-      description: check about in Windows Phone
+      description: check about in Windows Phone or your stock FFU file, or WPinternals
       placeholder: e.g. 1078.0053
     validations:
       required: true
@@ -82,7 +82,7 @@ body:
   - type: input
     attributes:
       label: Hardware Version
-      description: check about in Windows Phone
+      description: check about in Windows Phone or the Advanced Info application in WOA
       placeholder: e.g. 1.0.0.2
     validations:
       required: true
