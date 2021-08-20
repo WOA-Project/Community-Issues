@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: LumiaWOA website
+    url: https://woa-project.github.io/LumiaWOA
+    about: For instructions or guides or other communication channels, please go here
+  - name: WPinternals unlocking issues
+    url: https://github.com/ReneLergner/WPinternals/issues/new/choose
+    about: Please report WPinternals issues here.
