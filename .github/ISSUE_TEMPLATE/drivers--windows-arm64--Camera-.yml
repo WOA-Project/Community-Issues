@@ -31,13 +31,46 @@ body:
       description: If applicable, add pictures to help explain your problem.
     validations:
       required: true
+  - type: dropdown
+    id: uefi-version
+    attributes:
+      label: What version of the UEFI are you currently running?
+      description: 'You can find out what version of the UEFI you are running by going to the Advanced Info application on WOA.
+      Windows 11: Settings ➡️ Devices and Printers ➡️ Bluetooth ➡️ View lumia specific information
+      Windows 10/10X: Settings ➡️ Devices ➡️ Bluetooth and other devices ➡️ View lumia specific information
+      and then read the Core Version field with "EDK2" marked in it.
+      You also can find this information when the phone boots up on the screen of the phone.'
+      multiple: false
+      options:
+        - '2.22'
+        - '2.21-c'
+        - '2.21-b'
+        - '2.21'
+        - '2.20'
+        - '2.11.0'
+        - '2.10.0'
+        - '2.0.7'
+        - '2.0.6'
+        - '2.0.5'
+        - '2.0.4'
+        - '2.0.3'
+        - '2.0.2'
+        - '2.0.1'
+        - '2.0.0'
+        - '1.20'
+        - '1.09'
+        - '0.1.1'
+        - '0.1'
+        - 'Other (please specify below)'
+    validations:
+      required: true
   - type: input
     attributes:
-      label: UEFI Version
+      label: UEFI Version (if not specified above)
       description: The version of the UEFI being used, or commit hash
       placeholder: e.g. 2.12
     validations:
-      required: true
+      required: false
   - type: input
     attributes:
       label: Operating System
