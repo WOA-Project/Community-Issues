@@ -6,3 +6,6 @@ contact_links:
   - name: WPinternals unlocking issues
     url: https://github.com/ReneLergner/WPinternals/issues/new/choose
     about: Please report WPinternals issues here.
+  - name: Dialer issues/bugs
+    url: https://github.com/WOA-Project/woadialer/issues
+    about: Please report Dialer issues here.
