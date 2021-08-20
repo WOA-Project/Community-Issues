@@ -1,5 +1,5 @@
 name: UEFI (RAM)
-about: RAM issues with the UEFI
+description: RAM issues with the UEFI
 labels: [UEFI, UEFI RAM]
 body:
   - type: textarea

@@ -1,5 +1,5 @@
 name: UEFI (eMMC)
-about: eMMC issues with the UEFI
+description: eMMC issues with the UEFI
 labels: [UEFI, UEFI eMMC]
 body:
   - type: textarea

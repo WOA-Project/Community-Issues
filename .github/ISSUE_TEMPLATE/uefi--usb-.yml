@@ -1,5 +1,5 @@
 name: UEFI (USB)
-about: USB issues with the UEFI
+description: USB issues with the UEFI
 labels: [UEFI, UEFI USB]
 body:
   - type: textarea

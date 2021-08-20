@@ -1,5 +1,5 @@
 name: UEFI (SD Card)
-about: SD Card issues with the UEFI
+description: SD Card issues with the UEFI
 labels: [UEFI, UEFI SD Card]
 body:
   - type: textarea

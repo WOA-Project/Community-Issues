@@ -1,5 +1,5 @@
 name: UEFI (Framebuffer)
-about: Framebuffer issues with the UEFI
+description: Framebuffer issues with the UEFI
 labels: [UEFI, UEFI Framebuffer]
 body:
   - type: textarea

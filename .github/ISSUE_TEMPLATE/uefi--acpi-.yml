@@ -1,5 +1,5 @@
 name: UEFI (ACPI)
-about: ACPI issues with the UEFI
+description: ACPI issues with the UEFI
 labels: [UEFI, UEFI ACPI]
 body:
   - type: textarea

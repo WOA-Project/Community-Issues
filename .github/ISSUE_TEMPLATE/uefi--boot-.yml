@@ -1,5 +1,5 @@
 name: UEFI (Boot)
-about: Boot issues with the UEFI
+description: Boot issues with the UEFI
 labels: [UEFI, UEFI Boot]
 body:
   - type: textarea

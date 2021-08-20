@@ -1,5 +1,5 @@
 name: UEFI (Buttons)
-about: Buttons issues with the UEFI
+description: Buttons issues with the UEFI
 labels: [UEFI, UEFI Buttons]
 body:
   - type: textarea

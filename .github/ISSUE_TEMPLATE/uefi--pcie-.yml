@@ -1,5 +1,5 @@
 name: UEFI (PCIe)
-about: PCIe issues with the UEFI
+description: PCIe issues with the UEFI
 labels: [UEFI, UEFI PCIe]
 body:
   - type: textarea

@@ -1,5 +1,5 @@
 name: UEFI (Other)
-about: Any other issue with the UEFI that doesn't fall into any previous category
+description: Any other issue with the UEFI that doesn't fall into any previous category
 labels: [UEFI]
 body:
   - type: textarea
