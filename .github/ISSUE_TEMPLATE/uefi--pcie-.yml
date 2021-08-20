@@ -1,8 +1,6 @@
 name: UEFI (PCIe)
 about: PCIe issues with the UEFI
-title: ''
 labels: [UEFI, UEFI PCIe]
-assignees: ''
 body:
   - type: textarea
     attributes:

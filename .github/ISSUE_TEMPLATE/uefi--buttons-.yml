@@ -1,8 +1,6 @@
 name: UEFI (Buttons)
 about: Buttons issues with the UEFI
-title: ''
 labels: [UEFI, UEFI Buttons]
-assignees: ''
 body:
   - type: textarea
     attributes:

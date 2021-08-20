@@ -1,8 +1,6 @@
 name: UEFI (RAM)
 about: RAM issues with the UEFI
-title: ''
 labels: [UEFI, UEFI RAM]
-assignees: ''
 body:
   - type: textarea
     attributes:

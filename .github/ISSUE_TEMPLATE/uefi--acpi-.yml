@@ -1,8 +1,6 @@
 name: UEFI (ACPI)
 about: ACPI issues with the UEFI
-title: ''
 labels: [UEFI, UEFI ACPI]
-assignees: ''
 body:
   - type: textarea
     attributes:

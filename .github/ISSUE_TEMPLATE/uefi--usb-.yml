@@ -1,8 +1,6 @@
 name: UEFI (USB)
 about: USB issues with the UEFI
-title: ''
 labels: [UEFI, UEFI USB]
-assignees: ''
 body:
   - type: textarea
     attributes:

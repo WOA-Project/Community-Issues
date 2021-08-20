@@ -1,8 +1,6 @@
 name: UEFI (eMMC)
 about: eMMC issues with the UEFI
-title: ''
 labels: [UEFI, UEFI eMMC]
-assignees: ''
 body:
   - type: textarea
     attributes:
