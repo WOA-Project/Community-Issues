@@ -1,7 +1,7 @@
 name: UEFI (Boot)
 about: Boot issues with the UEFI
 title: ''
-labels: UEFI Boot
+labels: [UEFI, UEFI Boot]
 assignees: ''
 body:
   - type: textarea

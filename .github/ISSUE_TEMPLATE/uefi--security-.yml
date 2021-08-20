@@ -1,7 +1,7 @@
 name: UEFI (Security)
 about: Security issues with the UEFI
 title: ''
-labels: UEFI Security
+labels: [UEFI, UEFI Security]
 assignees: ''
 body:
   - type: textarea

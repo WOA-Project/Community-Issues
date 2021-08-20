@@ -1,7 +1,7 @@
 name: UEFI (Other)
 about: Any other issue with the UEFI that doesn't fall into any previous category
 title: ''
-labels: UEFI
+labels: [UEFI]
 assignees: ''
 body:
   - type: textarea

@@ -1,7 +1,7 @@
 name: UEFI (EL2)
 about: EL2 issues with the UEFI
 title: ''
-labels: UEFI EL2
+labels: [UEFI, UEFI EL2]
 assignees: ''
 body:
   - type: textarea

@@ -1,7 +1,7 @@
 name: UEFI (Touch)
 about: Touch issues with the UEFI
 title: ''
-labels: UEFI Touch
+labels: [UEFI, UEFI Touch]
 assignees: ''
 body:
   - type: textarea
