@@ -86,6 +86,7 @@ body:
       placeholder: e.g. 1.0.0.2
     validations:
       required: true
+  - type: input
     attributes:
       label: Type of deployment
       description: What you used for deploying
