@@ -35,11 +35,14 @@ body:
     id: uefi-version
     attributes:
       label: What version of the UEFI are you currently running?
-      description: 'You can find out what version of the UEFI you are running by going to the Advanced Info application on WOA.
-      Windows 11: Settings ➡️ Devices and Printers ➡️ Bluetooth ➡️ View lumia specific information
-      Windows 10/10X: Settings ➡️ Devices ➡️ Bluetooth and other devices ➡️ View lumia specific information
-      and then read the Core Version field with "EDK2" marked in it.
-      You also can find this information when the phone boots up on the screen of the phone.'
+      description: |
+        - You can find out what version of the UEFI you are running by going to the Advanced Info application on WOA.
+        - **Windows 11**: Settings ➡️ Devices and Printers ➡️ Bluetooth ➡️ View lumia specific information
+        - **Windows 10/10X**: Settings ➡️ Devices ➡️ Bluetooth and other devices ➡️ View lumia specific information
+
+        Then read the Core Version field with "EDK2" marked in it.
+
+        - You also can find this information when the phone boots up on the screen of the phone.
       multiple: false
       options:
         - '2.22'
