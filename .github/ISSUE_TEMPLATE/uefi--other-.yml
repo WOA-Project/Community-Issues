@@ -12,7 +12,7 @@ body:
     attributes:
       label: Steps To Reproduce
       description: Steps to reproduce the behavior.
-      placeholder: |
+      placeholder: e.g: |
         1. Go to '....'
         2. Click on '....'
         3. Scroll down to '....'
@@ -35,55 +35,55 @@ body:
     attributes:
       label: UEFI Version
       description: The version of the UEFI being used, or commit hash
-      placeholder: 2.12
+      placeholder: e.g: 2.12
     validations:
       required: true
   - type: input
     attributes:
       label: Operating System
       description: Operating System being booted using the UEFI
-      placeholder: Windows 11 ARM64 build 22000.160
+      placeholder: e.g: Windows 11 ARM64 build 22000.160
     validations:
       required: true
   - type: input
     attributes:
       label: BootShim
       description: Version of Bootshim being used to load the UEFI
-      placeholder: 174
+      placeholder: e.g: 174
     validations:
       required: true
   - type: input
     attributes:
       label: Device
-      placeholder: Lumia 950 XL
+      placeholder: e.g: Lumia 950 XL
     validations:
       required: true
   - type: input
     attributes:
       label: Stock Firmware
       description: check about in Windows Phone
-      placeholder: 1078.0053
+      placeholder: e.g: 1078.0053
     validations:
       required: true
   - type: input
     attributes:
       label: Battery Vendor
       description: pull your battery out
-      placeholder: Microsoft Mobile
+      placeholder: e.g: Microsoft Mobile
     validations:
       required: true
   - type: input
     attributes:
       label: Battery Manufacturing Date
       description: pull your battery out
-      placeholder: 11/2015
+      placeholder: e.g: 11/2015
     validations:
       required: true
   - type: input
     attributes:
       label: Hardware Version
       description: check about in Windows Phone
-      placeholder: 1.0.0.2
+      placeholder: e.g: 1.0.0.2
     validations:
       required: true
   - type: textarea
@@ -93,6 +93,6 @@ body:
         A list of assets (logs, pictures or other details) relevant to this bug.
 
         Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
-      placeholder: |
+      placeholder: e.g: |
         To upload the log
           - Carefully take pictures of just the phone screen / framebuffer, with the serial console clearly visible on screen. Use a good camera for this. If needed, take a video of the problem in slow motion.
