@@ -1,0 +1,100 @@
+name: UEFI (RAM)
+about: RAM issues with the UEFI
+title: ''
+labels: UEFI RAM
+assignees: ''
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '....'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See the error
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Pictures
+      description: If applicable, add pictures to help explain your problem.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: UEFI Version
+      description: The version of the UEFI being used, or commit hash
+      placeholder: e.g. 2.12
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Operating System
+      description: Operating System being booted using the UEFI
+      placeholder: e.g. Windows 11 ARM64 build 22000.160
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: BootShim
+      description: Version of Bootshim being used to load the UEFI
+      placeholder: e.g. 174
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Device
+      placeholder: e.g. Lumia 950 XL
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Stock Firmware
+      description: check about in Windows Phone
+      placeholder: e.g. 1078.0053
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Battery Vendor
+      description: pull your battery out
+      placeholder: e.g. Microsoft Mobile
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Battery Manufacturing Date
+      description: pull your battery out
+      placeholder: e.g. e.g. 11/2015
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Hardware Version
+      description: check about in Windows Phone
+      placeholder: e.g. e.g. 1.0.0.2
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Relevant Assets
+      description: |
+        A list of assets (logs, pictures or other details) relevant to this bug.
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      placeholder: |
+        To upload the log
+          - Carefully take pictures of just the phone screen / framebuffer, with the serial console clearly visible on screen. Use a good camera for this. If needed, take a video of the problem in slow motion.
