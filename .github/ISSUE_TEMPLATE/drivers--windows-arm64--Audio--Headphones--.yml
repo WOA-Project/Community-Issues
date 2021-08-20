@@ -84,8 +84,6 @@ body:
         - **Windows 10/10X**: Settings ➡️ Devices ➡️ Bluetooth and other devices ➡️ View lumia specific information
 
         Then read the release information field.
-
-        - You also can find this information when the phone boots up on the screen of the phone.
       multiple: false
       options:
         - 'v2108.58 (Prussian Blue)'
@@ -169,6 +167,20 @@ body:
       label: Hardware Version
       description: check about in Windows Phone or the Advanced Info application in WOA
       placeholder: e.g. 1.0.0.2
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment-type
+    attributes:
+      label: Select any case that applies to your deployment
+      multiple: false
+      options:
+        - 'I have deployed Windows using WOA Deployer and never updated using the Driver Updater utility'
+        - 'I have deployed Windows using WOA Deployer and updated using the Driver Updater utility afterwards'
+        - 'I have deployed Windows using a custom FFU file using THOR2 and never using the Driver Updater utility'
+        - 'I have deployed Windows using a custom FFU file using THOR2 and updated using the Driver Updater utility afterwards'
+        - 'I have deployed Windows manually myself and never updated using the Driver Updater utility'
+        - 'I have deployed Windows manually myself and updated using the Driver Updater utility afterwards'
     validations:
       required: true
   - type: input
