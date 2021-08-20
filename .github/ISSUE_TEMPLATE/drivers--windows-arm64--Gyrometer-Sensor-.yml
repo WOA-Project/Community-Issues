@@ -140,6 +140,8 @@ body:
         - 'Lumia 950 XL'
         - 'Lumia 950 XL Dual SIM'
         - 'Lumia 950 XL AT&T'
+        - 'Hapanero (RX-130) (EB2.0 and higher)'
+        - 'Hapanero (RX-127/RX-130) (EB0.5 and higher)'
     validations:
       required: true
   - type: input
